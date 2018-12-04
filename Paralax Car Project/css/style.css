@@ -1,0 +1,102 @@
+body{
+  font-family:'Open Sans' sans-serif;
+}
+
+h1{
+  color: #ccc;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+figure{
+  margin: auto;
+}
+
+.content article{
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+h2,p{
+  transition: all 1s ease-in;
+}
+
+/* Parallax */
+
+.logo{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/logo.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.interior{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/audi-interior.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.steering{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/audi-steering.jpg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.back{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/audi-back.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.wheels{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/audi-wheels.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.wheels-2{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/audi-wheels-2.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.evening{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/evening.jpg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
+
+.exhaust{
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/exhaust.jpeg');
+  background-size: cover;
+  position: top center;
+  background-attachment: fixed;
+}
